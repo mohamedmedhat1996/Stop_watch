@@ -1,0 +1,20 @@
+??:??:?? **** Incremental Build of configuration Debug for project segma_proj ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 segma_proj.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4562 bytes (27.8% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+
+??:??:?? Build Finished. 0 errors, 0 warnings. (took 168ms)
+
